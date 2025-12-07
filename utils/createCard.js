@@ -1,5 +1,5 @@
 export default function createCard(rank, suite) {
-  card = {
+  let card = {
     rank: rank,
     suite: suite,
   };

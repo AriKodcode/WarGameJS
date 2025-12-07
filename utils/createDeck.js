@@ -1,22 +1,22 @@
-import createCard from "./createCard.js";
+import createCard from './createCard.js';
 
 export default function createDeck() {
   const listOfCards = [
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "10",
-    "J",
-    "Q",
-    "K",
-    "A",
+    '2',
+    '3',
+    '4',
+    '5',
+    '6',
+    '7',
+    '8',
+    '9',
+    '10',
+    'J',
+    'Q',
+    'K',
+    'A',
   ];
-  const listOfSuites = ["Hearts", "Diamonds", "Clubs", "Spades"];
+  const listOfSuites = ['Hearts', 'Diamonds', 'Clubs', 'Spades'];
 
   let deck = [];
 
@@ -27,6 +27,3 @@ export default function createDeck() {
   }
   return deck;
 }
-
-let a = createDeck();
-console.log(a);

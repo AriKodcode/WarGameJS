@@ -27,3 +27,5 @@ export default function createDeck() {
   }
   return deck;
 }
+
+console.log(createDeck());
